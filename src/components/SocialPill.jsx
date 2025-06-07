@@ -1,4 +1,4 @@
-// src/components/SocialPill.jsx
+
 export default function SocialPill({ href, children }) {
     return (
       <a
