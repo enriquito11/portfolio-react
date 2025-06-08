@@ -24,7 +24,7 @@ const PROJECTS = [
     {
         title: "Portfolio Personal en React",
         description: "Desarrollo de mi portfolio personal desde cero. Utilicé Vite para un entorno de desarrollo rápido y React para una interfaz dinámica y componentizada. El diseño responsive y los estilos modernos fueron implementados con Tailwind CSS, y la iconografía con las librerías Lucide React y React Icons.",
-        link: "/",
+        link: "https://enritorres.netlify.app/",
         github: "https://github.com/enriquito11/portfolio-react",
         image: null,
         tags: [TAGS.REACT, TAGS.VITE, TAGS.TAILWIND, TAGS.JAVASCRIPT]
