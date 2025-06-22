@@ -7,8 +7,8 @@ export default function Hero() {
     <section className="w-full max-w-[740px] mx-auto pt-32 sm:pt-44 pb-24 text-center">
       
       
-      <img 
-        className="rounded-full size-48 mx-auto mb-8 border-4 border-white/30" 
+      <img
+        className="rounded-full size-48 mx-auto mb-8 border-4 border-white/30 shadow-lg shadow-black/60"
         src="/images/enri-torres.jpeg" 
         alt="Foto de Enri Torres" 
       />

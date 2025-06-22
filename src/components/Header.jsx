@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full flex justify-center p-4 z-10 backdrop-blur-sm">
-      <nav className="hidden md:flex bg-black/50 border border-white/10 rounded-full px-3 py-2">
+      <nav className="hidden md:flex bg-black/50 border border-white/10 rounded-full px-3 py-2 shadow-lg">
         {navLinks.map((link) => (
           <a
             key={link.title}

@@ -13,7 +13,7 @@ export default function Contact() {
             <a
               href="mailto:enriquilo@gmail.com"
               className="bg-white text-neutral-900 font-semibold rounded-full
-                         inline-flex items-center gap-x-2
+                         inline-flex items-center gap-x-2 shadow-lg
                          py-2 px-6
                          transition
                          hover:scale-105"
