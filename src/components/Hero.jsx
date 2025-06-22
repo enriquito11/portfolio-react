@@ -15,7 +15,7 @@ export default function Hero() {
 
      <div className="flex flex-col items-center mb-6">
         <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-10">
-          Hola, ¡soy Enri!
+          Hola, soy Enri!
         </h1>
         <a
           href="https://www.linkedin.com/in/enri-torres"
