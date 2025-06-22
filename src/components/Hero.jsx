@@ -13,17 +13,19 @@ export default function Hero() {
         alt="Foto de Enri Torres" 
       />
 
-      <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold flex flex-col justify-center items-center gap-4 pb-6">
-        <span>Hola, soy Enri!</span>
-        <a 
-          href="https://www.linkedin.com/in/enri-torres" 
-          target="_blank" 
-          rel="noopener noreferrer" 
+     <div className="flex flex-col items-center mb-6">
+        <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-10">
+          Hola, soy Enri!
+        </h1>
+        <a
+          href="https://www.linkedin.com/in/enri-torres"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-blue-600 text-sm font-medium rounded-full px-3 py-1 hover:scale-105 transition"
         >
           Disponible para trabajar
         </a>
-      </h1>
+      </div>
       <h2 className="text-xl lg:text-2xl text-wrap max-w-[700px] mx-auto">
         +1 año de experiencia.{" "}
         <span className="text-yellow-200">Desarrollador Web.</span>{" "}
