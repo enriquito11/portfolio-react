@@ -27,7 +27,6 @@ export default function Hero() {
         </a>
       </div>
       <h2 className="text-xl lg:text-2xl text-wrap max-w-[700px] mx-auto">
-        +1 año de experiencia.{" "}
         <span className="text-yellow-200">Desarrollador Web.</span>{" "}
         De Córdoba, Argentina. Especializado en crear aplicaciones únicas.
       </h2>
