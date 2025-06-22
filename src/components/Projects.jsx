@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Briefcase, Code, Link as LinkIcon, X } from 'lucide-react'
 import SocialPill from './SocialPill'
 import {
@@ -67,6 +67,20 @@ export default function Projects() {
         document.body.style.overflow = 'auto';
         setSelectedImage(null)
     }
+
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (e.key === 'Escape') {
+                closeImage();
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, []);
 
     return (
         <>
