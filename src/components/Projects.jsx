@@ -77,8 +77,8 @@ export default function Projects() {
                 </h2>
 
                 <div className="space-y-16">
-                    {PROJECTS.map((project, index) => (
-                        <article key={index} className="grid grid-cols-1 md:grid-cols-5 gap-8">
+                    {PROJECTS.map((project) => (
+                        <article key={project.title} className="grid grid-cols-1 md:grid-cols-5 gap-8">
                             <div className={project.image ? "md:col-span-3" : "md:col-span-5"}>
                                 <h3 className="text-xl font-semibold text-yellow-200 mb-2">{project.title}</h3>
                                 <p className="text-lg text-neutral-300 mb-4 text-pretty">{project.description}</p>
@@ -99,8 +99,8 @@ export default function Projects() {
                                 </div>
 
                                 <ul className="flex flex-wrap gap-2">
-                                    {project.tags.map((tag, tagIndex) => (
-                                        <li key={tagIndex}>
+                                    {project.tags.map((tag) => (
+                                        <li key={tag.name}>
                                             <span className="inline-flex items-center gap-x-2 rounded-full text-xs bg-black/70 border border-white/20 py-1.5 px-3">
                                                 {tag.icon}
                                                 {tag.name}
